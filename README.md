@@ -52,9 +52,11 @@ infra/
 │   ├── stage/          
 │   └── dev/            
 │           
-├── versions.tf         
-├── providers.tf            
-└── README.md           
+├── versions.tf         # Terraform & Provider 버전 고정        
+├── providers.tf        # Provider 공통 설정 (AWS, tags 등)     
+├── variables.tf        # 모든 솔루션/환경이 공통으로 쓰는 변수     
+├── outputs.tf          # 공통 출력 정의 (선택)     
+└── backend-common.hcl  # 공통 백엔드 설정 (선택)       
 
 ```
 
