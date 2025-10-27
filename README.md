@@ -59,8 +59,9 @@ infra/
 ```
 
 ## Terraform 모범사례
-- 모듈을 염두에 두고 구성 작성을 시작하세요
-- 모듈에서 이름규칙은 "terraform-<PROVIDER>-<NAME>"
+- **모듈에서 이름규칙은**: `terraform-<PROVIDER>-<NAME>`
+- **모듈을 염두에 두고 구성 작성을 시작하세요**
+
 
 
 ### Terraform
