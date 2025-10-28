@@ -10,7 +10,7 @@ terraform {
     required_providers {    // 특정 벤더의 SDK
       aws = {
         source = "hashicorp/aws"
-        version = "~> 5.57"
+        version = "~> 6.18.0"
       }
     }
 }
