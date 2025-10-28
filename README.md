@@ -82,9 +82,6 @@ infra/
 
 ### Terraform 방식 (예정)
 ```bash
-cp -r infra-tf/environments/dev/myapp infra-tf/environments/dev/mys1
-vim infra-tf/environments/dev/mys1/terraform.tfvars
-cd infra-tf/environments/dev/mys1
 terraform init
 terraform plan
 terraform apply
